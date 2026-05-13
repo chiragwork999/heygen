@@ -1,0 +1,22 @@
+{
+  "name": "auto-tech-shorts",
+  "version": "1.0.0",
+  "description": "Automatic 20-30 second tech shorts generator",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "lint": "node --check src/server.js && node --check src/services/pipeline.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3",
+    "openai": "^4.76.0",
+    "uuid": "^11.0.3"
+  }
+}
