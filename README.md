@@ -30,6 +30,16 @@ Configure `.env` values:
 - `HEYGEN_VOICE_ID`
 - `NEWS_API_KEY` (optional)
 - `DAILY_IMAGE_URL` (optional background image URL for HeyGen)
+- PORT=3000
+ or
+OPENAI_API_KEY=your_openai_api_key
+NEWS_API_KEY=your_news_api_key
+RUN_SCHEDULE=0 8 * * *
+HEYGEN_API_KEY=your_heygen_api_key
+HEYGEN_AVATAR_ID=your_heygen_avatar_id
+HEYGEN_VOICE_ID=your_heygen_voice_id
+HEYGEN_BASE_URL=https://api.heygen.com
+DAILY_IMAGE_URL=https://your-cdn.com/today.jpg
 
 ## API
 ### POST `/api/generate`
